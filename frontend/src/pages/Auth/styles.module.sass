@@ -1,0 +1,70 @@
+.section
+    display: flex
+    flex-direction: column
+    // justify-content: center
+    padding-top: 15%
+    align-items: center
+    width: 100%
+    min-height: 100vh
+
+.toggle
+    background: linear-gradient(#ccc, #eee)
+    border: 1px solid grey
+    height: 2em
+    width: 86px
+    border-radius: 1em
+    display: flex
+
+.knob
+    position: relative
+    width: 1.9em
+    height: 1.9em
+    background: #17283f
+    border: 1px solid #ddd
+    border-radius: 50%
+    left: 0em
+    transition: left 0.3s ease-out
+.knobActive
+    position: relative
+    width: 1.9em
+    height: 1.9em
+    background: #463f6d
+    border: 1px solid #ddd
+    border-radius: 50%
+    transition: left 0.3s ease-out
+    left: 60px
+
+.buttons
+    display: flex
+    align-items: center
+    margin-bottom: 40px
+
+.button
+    margin: 0 20px
+    padding: 10px 42px
+    background: #17283f
+    border-radius: 7px
+    box-shadow: 0 1px 2px #000000
+    color: white
+
+.buttonMobileRegister
+    background-image: url('../../assets/icons/user-add.svg')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 34px
+    height: 34px
+
+.buttonMobileLogin
+    background-image: url('../../assets/icons/user.svg')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 34px
+    height: 34px
+
+
+@media screen and (max-width: 560px)
+    .buttons
+        gap: 30px
+
+    .section
+        padding: 100px 30px 0

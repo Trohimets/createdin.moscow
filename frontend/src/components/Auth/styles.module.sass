@@ -1,0 +1,117 @@
+.auth
+
+.form
+    display: flex
+    gap: 40px
+    flex-direction: column
+    width: 500px
+    margin: 0 auto
+    position: relative
+    background: rgba(87, 136, 200, 0.15)
+    border-radius: 8px
+    padding: 30px 30px 100px
+    margin-bottom: 60px
+
+.inputGroup
+    display: flex
+    justify-content: space-between
+    position: relative
+    font-size: 17px
+
+.lable
+    font-size: 1em
+
+.input
+    width: 60%
+
+.inputError
+    position: absolute
+    color: #ac0000
+    right: 1px
+    bottom: -26px
+    font-size: .8em
+
+.inputPass
+
+.showPass
+    width: 24px
+    height: 24px
+    background-image: url('../../assets/icons/show-pass.svg')
+    position: absolute
+    right: 5px
+    bottom: 3px
+
+.showPass:hover
+    scale: 1.03
+    box-shadow: 0px 0.996045px 3.98418px rgba(51, 51, 51, 0.15)
+
+.title
+    font-size: 2em
+    text-align: center
+
+.link
+    position: absolute
+    bottom: 30px
+    text-align: center
+    text-decoration: underline
+
+.inputGroupRadio
+    display: flex
+    align-items: center
+    flex-direction: column
+
+.buttons
+    display: flex
+    align-items: center
+    margin-top: 20px
+
+.button
+    margin: 0 20px
+    padding: 10px 42px
+    background: #17283f
+    border-radius: 7px
+    box-shadow: 0 1px 2px #000000
+    color: white
+
+.buttonActive
+    margin: 0 20px
+    padding: 10px 42px
+    background: #17283f
+    border-radius: 7px
+    box-shadow: 0 1px 2px #e74362
+    color: white
+
+
+@media screen and (max-width: 1160px)
+
+
+
+@media screen and (max-width: 560px)
+
+    .form
+        width: 300px
+        padding: 30px 30px
+
+
+
+    .inputGroup
+        flex-direction: column
+        gap: 15px
+
+    .buttons
+        flex-direction: column
+        gap: 15px
+
+    .input
+        width: 100%
+
+    .buttonActive
+        width: 100%
+
+    .button
+        width: 100%
+
+    .link
+        position: relative
+        bottom: 0
+

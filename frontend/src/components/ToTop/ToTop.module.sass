@@ -1,0 +1,30 @@
+.btn
+  position: fixed
+  right: 20px
+  bottom: 50%
+  margin-bottom: -25px
+  z-index: 9
+  outline: none
+  border: 3px solid white
+  cursor: pointer
+  padding: 15px
+  border-radius: 50%
+  background-size: 30px 30px
+  background-repeat: no-repeat
+  background-position: center
+  width: 50px
+  height: 50px
+  opacity: 50%
+  background-image: url('./up-arrow.svg')
+  transition: 0.4s
+
+.btnHidden
+  display: none
+
+.btn:hover
+  opacity: 100%
+
+@media screen and (max-width: 800px)
+  .btn
+    right: 15px
+    bottom: 50px

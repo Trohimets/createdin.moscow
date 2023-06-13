@@ -1,0 +1,54 @@
+@import './@normalize.sass'
+@import './@mixins'
+@import './@fonts'
+body
+    font-family: 'CeraPro', sans-serif
+    line-height: 1.5
+    font-weight: 400
+    font-size: 17px
+    color-scheme: light dark
+    color: #fff
+    background-color: #0c1522
+    font-synthesis: none
+    text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    -webkit-text-size-adjust: 100%
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+
+input, select
+    border: none
+    padding: 5px
+    border-radius: 5px
+    color: white
+    background: #0c15226e
+input::placeholder
+    opacity: 0.5
+    color: white
+    background: transparent
+    border: none
+    border-radius: 5px
+    padding: 5px
+    background: #0c1522
+
+input::-webkit-input-placeholder
+    color: white
+    background: #0c1522
+    padding: 2px 5px
+    border: none
+    border-radius: 5px
+    padding: 5px
+
+.global-span
+    color: #e74362
+
+@media screen and (max-width: 1200px)
+    body
+        font-size: 14px
+
+@media screen and (max-width: 1200px)
+    body
+        font-size: 12px

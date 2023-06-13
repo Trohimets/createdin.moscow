@@ -51,7 +51,6 @@ coverage.xml
 .pytest_cache/
 cover/
 
-
 # Translations
 *.mo
 *.pot
@@ -162,6 +161,3 @@ cython_debug/
 
 # mac os
 **/.DS_Store
-
-# media
-**/media

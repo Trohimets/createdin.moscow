@@ -1,0 +1,182 @@
+.section
+    padding-top: 15%
+    height: 100%
+    max-width: 1440px
+    width: 100%
+    padding: 15% 30px 0
+
+.title
+    font-size: 3em
+    text-align: center
+    font-weight: 600
+
+.wrapper
+    display: flex
+    gap: 40px
+    padding-bottom: 100px
+    padding-top: 40px
+    justify-content: space-between
+
+.grid
+    display: flex
+    flex-direction: column
+    width: 100%
+    max-width: 500px
+    gap: 5px
+
+.imgWrapper
+    max-width: 100%
+    background: rgb(127,126,240)
+    background: linear-gradient(90deg, rgba(127,126,240,1) 0%, rgba(158,154,233,1) 50%, rgba(145,185,241,1) 100%)
+
+.img
+    width: 500px
+    height: 300px
+    object-fit: cover
+
+.description
+    margin-top: 20px
+    font-size: 1.5em
+
+.infobar
+    width: 100%
+    background-color: rgba(87,136,200,.15)
+    border-radius: 7px
+    display: flex
+    margin-top: 30px
+    padding: 30px
+    // align-items: center
+    justify-content: space-between
+
+.iconImg
+    height: 40px
+    width: 40px
+    margin: 0 auto
+
+.iconWrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 160px
+    gap: 20px
+.leftSide
+    width: 100%
+.iconText
+    text-align: center
+    word-wrap: break-word
+    font-size: 1.3em
+.iconValueWrap
+    border: 3px dotted white
+    border-radius: 50%
+    width: 120px
+    height: 120px
+    display: flex
+    justify-content: center
+    align-items: center
+.iconValue
+    font-size: 1.3em
+
+    // padding: 30px
+
+.calendarWrapper
+    padding: 20px 0
+
+.cta
+    text-align: center
+    padding-bottom: 20px
+    font-size: 2em
+    font-weight: 600
+
+.contacts
+    display: flex
+    flex-direction: column
+    gap: 40px
+    justify-content: center
+    align-items: center
+    padding: 30px 0
+    width: 100%
+    border-radius: 12px
+    border: 1px solid #666666
+
+.contactsTitle
+    font-size: 1.4em
+
+.contactsWrapper
+    display: flex
+    justify-content: space-between
+    width: 100%
+    max-width: 80%
+
+.contactsPlug
+    text-align: center
+    padding: 40px 0
+    border-radius: 12px
+    border: 1px solid #666666
+    margin: 0 0 40px
+
+@media screen and (max-width: 1200px)
+    .wrapper
+        flex-direction: column-reverse
+        justify-content: center
+        align-items: center
+        width: 100%
+
+    .grid
+        gap: 20px
+        justify-content: center
+        align-items: center
+
+@media screen and (max-width: 950px)
+    .infobar
+        flex-wrap: wrap
+        gap: 40px
+        justify-content: space-around
+        margin: 30px auto 0
+@media screen and (max-width: 700px)
+    .img
+        max-width: 500px
+        width: 100%
+
+    .imgWrapper
+        width: 100%
+        border-radius: 7px
+        overflow: hidden
+
+    .contactsWrapper
+        flex-direction: column
+        gap: 20px
+        justify-content: center
+        align-items: center
+
+    .section
+        padding-top: 20%
+
+@media screen and (max-width: 500px)
+    .infobar
+        flex-wrap: wrap
+        gap: 20px
+        justify-content: space-around
+
+    .iconValueWrap
+        border-radius: 50%
+        width: 80px
+        height: 80px
+
+    .iconWrapper
+        width: 100px
+
+@media screen and (max-width: 360px)
+    .iconWrapper
+        width: 80px
+        gap: 5px
+
+    .section
+        padding-top: 35%
+
+@media screen and (max-width: 450px)
+
+    .title
+        font-size: 2em
+
+    .section
+        padding-top: 25%
